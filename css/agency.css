@@ -377,9 +377,14 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
-.wonderful-team .row-team {
+.wonderful-team > .row-team {
   width: 100%; 
   overflow-x: auto;
+}
+
+.wonderful-team > .row > .col-sm-3 {
+  display: inline-block;
+  float: none;
 }
 
 .timeline {
