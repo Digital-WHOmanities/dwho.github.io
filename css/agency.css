@@ -377,6 +377,11 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
+.row-team {
+  width: 100%; 
+  overflow-x: scroll;
+}
+
 .timeline {
   position: relative;
   padding: 0;
