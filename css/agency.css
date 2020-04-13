@@ -173,7 +173,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header_bg3.jpg");
+  background-image: url("../img/header_bg3_bak.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
