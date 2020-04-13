@@ -380,13 +380,13 @@ header.masthead .intro-text .intro-heading {
 }
 
 
-.our-team > .row {
+.our-team {
   width:100%;
   height:400px;
   overflow-x: auto;
   white-space: nowrap;
 }
-.our-team > .row > .col-sm-3 {
+.our-team > .col-sm-3 {
   display: inline-block;
   float: none;
 }
