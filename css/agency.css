@@ -28,23 +28,23 @@ a:hover {
 }
 */
 .research {
-  color: #4d7397;
+  color: #4d7397 !important;
 }
 
 .editing {
-  color: #699dcf;
+  color: #699dcf !important;
 }
 
 tech {
-  color: #9b88b5;
+  color: #9b88b5 !important;
 }
 
 biblio {
-  color: #de6693;
+  color: #de6693 !important;
 }
 
 ling {
-  color: #a5617b;
+  color: #a5617b !important;
 }
 
 h1,
