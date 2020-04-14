@@ -26,6 +26,26 @@ a:hover {
   color: #689dce !important;
 }
 
+.research {
+  color: #4d7397;
+}
+
+.editing {
+  color: #699dcf;
+}
+
+tech {
+  color: #9b88b5;
+}
+
+biblio {
+  color: #de6693;
+}
+
+ling {
+  color: #a5617b;
+}
+
 h1,
 h2,
 h3,
