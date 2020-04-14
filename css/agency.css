@@ -390,7 +390,7 @@ header.masthead .intro-text .intro-heading {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 /* Track */
@@ -401,8 +401,8 @@ header.masthead .intro-text .intro-heading {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: grey; 
-  border-radius: 10px;
+  background: light-grey; 
+  border-radius: 5px;
 }
 
 
