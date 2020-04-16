@@ -7,6 +7,7 @@
 body {
   
   font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
 }
 
 p {
@@ -21,8 +22,29 @@ a:hover {
   color: #3581c8;
 }
 
+/*
 .text-primary {
   color: #689dce !important;
+}
+*/
+.research {
+  color: #4d7397 !important;
+}
+
+.editing {
+  color: #699dcf !important;
+}
+
+.tech {
+  color: #9b88b5 !important;
+}
+
+.biblio {
+  color: #de6693 !important;
+}
+
+.ling {
+  color: #a5617b !important;
 }
 
 h1,
@@ -61,12 +83,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #ceb46c;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #ceb46c;
   text-shadow: none;
 }
 
@@ -93,18 +115,18 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #e2c576;
+  border-color: #e2c576;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #ceb46c !important;
+  border-color: #ceb46c !important;
   color: white;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem #ceb46c !important;
 }
 
 #mainNav {
@@ -118,17 +140,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #e2c576;
   font-family: 'Raleway', sans-serif;
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #e2c576;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #ceB46c;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -141,7 +163,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #ceb46c;
 }
 
 @media (min-width: 992px) {
@@ -379,24 +401,32 @@ header.masthead .intro-text .intro-heading {
   background-color: #212529;
 }
 
-/*
 .our-team {
   width:100%;
-  height:400px;
+  height:300px;
   overflow-x: auto;
-  white-space: nowrap;
-}
-.our-team > .col-sm-3 {
-  display: inline-block;
-  float: none;
+  overflow-y: hidden; 
+  flex-wrap: nowrap;
 }
 
-.row {
-  width:100%;
-  height:400px;
-  overflow-x: scroll;
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 10px;
 }
-*/ 
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px white; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+}
+
 
 .timeline {
   position: relative;
@@ -470,7 +500,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #ceb46c;
 }
 
 .timeline > li .timeline-image h4 {
@@ -655,7 +685,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #ceb46c;
   box-shadow: none;
 }
 
@@ -721,5 +751,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #ceb46c;
 }
