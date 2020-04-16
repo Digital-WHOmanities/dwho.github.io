@@ -71,7 +71,7 @@ h6 {
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
-  margin-bottom: 75px;
+  /*margin-bottom: 75px;*/
   text-transform: none;
   font-family: 'Raleway', sans-serif;
 }
@@ -83,6 +83,15 @@ h6 {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
 }
+
+
+hr {
+  border: 6px solid #4d7397;
+  margin-top: 0px;
+  width: 43%;
+}
+
+/*added*/
 
 @media (min-width: 768px) {
   section {
