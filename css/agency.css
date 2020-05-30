@@ -188,6 +188,7 @@ img::-moz-selection {
   letter-spacing: 1px;
   color: white;
   font-family: 'Raleway', sans-serif;
+  text-shadow: -1px 2px 2px rgb(0 0 0);
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
