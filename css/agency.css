@@ -858,7 +858,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #ceb46c;
+  background: rgb(206, 180, 108);
   height: 4px;
 }
 nav.stroke ul li a:hover:after {
@@ -887,4 +887,11 @@ nav.fill ul li a:hover:after {
   opacity: 1;
 }
 
-/* LIVE BUTTON */
+.highlight {
+  background: rgba(252, 205, 77, 0.5);
+  padding: 3px 5px;
+  margin: -3px -5px;
+  line-height: 1.7;
+  border-radius: 5px;
+  display:inline;
+}
