@@ -158,7 +158,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: #bcf4d4;
 }
 
 #mainNav .navbar-toggler {
@@ -186,9 +186,9 @@ img::-moz-selection {
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  color: white;
+  color: black;
   font-family: 'Raleway', sans-serif;
-  text-shadow: -1px 2px 2px rgba(3, 3, 1, 0.945);
+  
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -213,7 +213,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #bcf4d4;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -242,7 +242,7 @@ header.masthead .intro-text .intro-lead-in {
   text-transform: uppercase;
   line-height: 22px;
   margin-bottom: 25px;
-  text-shadow: -2px 3px 3px rgba(32, 37, 43, 1);
+  
   font-family: 'Raleway', sans-serif;
 }
 
@@ -251,7 +251,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
-  text-shadow: -2px 3px 3px rgba(32, 37, 43, 1);
+  
   font-family: 'Roboto', sans-serif;
 }
 
@@ -266,7 +266,7 @@ header.masthead .intro-text .intro-heading {
     text-transform: uppercase;
     line-height: 40px;
     margin-bottom: 25px;
-    text-shadow: -2px 3px 3px rgba(32, 37, 43, 1);
+    
     font-family: 'Raleway', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
@@ -274,7 +274,7 @@ header.masthead .intro-text .intro-heading {
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
-    text-shadow: -2px 3px 3px rgba(32, 37, 43, 1);
+    
     font-family: 'Roboto', sans-serif;
     }
 }
