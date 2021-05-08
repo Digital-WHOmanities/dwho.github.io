@@ -8,6 +8,7 @@ body {
   font-family: 'Epilogue', sans-serif;
   /* font-family: 'Raleway', sans-serif; */
   overflow-x: hidden;
+  cursor: crosshair;
 }
 
 p {
@@ -172,13 +173,14 @@ img::-moz-selection {
 
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 1rem;
   right: 0;
+  text-shadow: 2px 2px #ffffff;
   padding: 13px;
   text-transform: uppercase;
-  color: white;
+  color: rgb(26, 23, 23);
   border: 0;
-  background-color: #e2c576;
+  /* background-color: #e2c576; */
   font-family: 'Epilogue', sans-serif;}
 
 #mainNav .navbar-brand {
@@ -202,7 +204,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: ;
+  /* color: ; */
 }
 
 @media (min-width: 992px) {
@@ -267,13 +269,41 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Fraunces', serif;
 }
 
+@media (min-width: 300px) {
+  header.masthead .intro-text {
+    padding-top: 30vh;
+    padding-bottom: 200px;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+  header.masthead .intro-text .intro-lead-in {
+    font-size: 1rem;
+    /*font-style: italic;*/
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-bottom: 30px;
+    
+    font-family: 'Epilogue', sans-serif;  }
+  header.masthead .intro-text .intro-heading {
+    font-size: 4.5rem;
+  /* font-weight: 700; */
+  line-height: 3.5rem;
+    margin-bottom: 40px;
+    
+    font-family: 'Fraunces', serif;
+    }
+}
+
 @media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 20px;
     /*font-style: italic;*/
     text-transform: uppercase;
     line-height: 40px;
@@ -281,9 +311,9 @@ header.masthead .intro-text .intro-heading {
     
     font-family: 'Epilogue', sans-serif;  }
   header.masthead .intro-text .intro-heading {
-    font-size: 12rem;
+    font-size: 6rem;
   /* font-weight: 700; */
-  line-height: 12rem;
+  line-height: 6rem;
     margin-bottom: 50px;
     
     font-family: 'Fraunces', serif;
@@ -660,6 +690,23 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 1200px) {
+  header.masthead .intro-text .intro-heading {
+    font-size: 10rem;
+    /* font-weight: 700; */
+    line-height: 12rem;
+    margin-bottom: 50px;
+  
+    font-family: 'Fraunces', serif;
+  }
+  .intro-lead-in {
+    padding-bottom: 90px;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 25px;
+    border-radius: 20px;
+  }
   .timeline > li {
     min-height: 170px;
   }
