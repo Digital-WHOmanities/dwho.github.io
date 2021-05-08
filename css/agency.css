@@ -81,6 +81,12 @@ h6 {
   color: #FFF;
   padding-top: 200px;
 }
+.live ::selection{
+  background-color: #1135ce;
+}
+.live ::-moz-selection{
+  background-color: #1135ce;
+}
 
 .col-live {
   padding-right: 50px;
@@ -121,12 +127,12 @@ hr {
 }
 
 ::-moz-selection {
-  background: #ceb46c;
+  background: #bcf4d4;
   text-shadow: none;
 }
 
 ::selection {
-  background: #ceb46c;
+  background: #bcf4d4;
   text-shadow: none;
 }
 
@@ -158,8 +164,8 @@ img::-moz-selection {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #ceb46c !important;
-  border-color: #ceb46c !important;
+  background-color: #1135ce !important;
+  border-color: #1135ce !important;
   color: white;
 }
 
@@ -204,7 +210,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  /* color: ; */
+  color: #1135ce;
 }
 
 @media (min-width: 992px) {
@@ -849,7 +855,7 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #ceb46c;
+  background-color: #1135ce;
 }
 
 ul.team-social-buttons {
@@ -870,7 +876,7 @@ ul.team-social-buttons li a {
 }
 
 ul.team-social-buttons li a:active, ul.team-social-buttons li a:focus, ul.team-social-buttons li a:hover {
-  background-color: #ceb46c;
+  background-color: #4d7397;
 }
 
 
@@ -916,7 +922,7 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: rgb(206, 180, 108);
+  background: #1135ce;
   height: 4px;
 }
 nav.stroke ul li a:hover:after {
