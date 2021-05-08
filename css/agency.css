@@ -202,7 +202,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ceb46c;
+  color: ;
 }
 
 @media (min-width: 992px) {
@@ -931,4 +931,7 @@ h4 {
 }
 .live-a{
   color: #fde0ff;
+}
+#footerPrivacy {
+  color: #dbe2ff !important;
 }
